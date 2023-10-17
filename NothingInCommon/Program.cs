@@ -13,10 +13,15 @@
 
             for (int i = 0; i < num1.Length-1; i++)
             {
-                if (num1[i] + num1[i-1] == num2)
+                for(int j = i +1; j<num1.Length; j++)
+                {
+                    if (num1[i] + num1[j] == num2)
                     {
-                        Console.WriteLine($"{num1[i]} {num1[i+1]}");
+                        Console.WriteLine($"{num1[i]} {num1[j]}");
                     }
+                }
+
+                
                 
                 
                 }
