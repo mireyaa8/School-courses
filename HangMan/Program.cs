@@ -1,16 +1,7 @@
 ﻿namespace HangMan
 {
     internal class Program
-    {       
-            
-            
-
-
-
-
-
-
-            
+    {
         static void Main(string[] args)
         {
             const char UnderScore = '_';
@@ -392,10 +383,6 @@
 
             static string[] ReadWordsFromFile()
             {
-
-
-
-
                 string currentDictenary = Directory.GetCurrentDirectory();
 
                 string projectDirectory = Directory.GetParent(currentDictenary).Parent.Parent.FullName;
@@ -407,11 +394,6 @@
 
                 return words;
             }
-
-
-
-
-
             void playGame(string word, string wordToGuess, int incorrectGuessCount, List<char> playerUsedLetters)
             {
                 while (true)
@@ -457,15 +439,7 @@
 
                 }
                 Console.WriteLine("If you want to play again, press [Enter]. Else, type 'quit':");
-
-
-                string continuee = Console.ReadLine();
-
-
-
-
-
-
+                 string continuee = Console.ReadLine();
                 if (continuee == "quit")
                 {
                     Console.Clear();
@@ -475,9 +449,6 @@
                 Console.Clear();
 
             }
-
-
-
             static bool CheckIfSymbolIsContained(string word, char playerLetter)
             {
                 if (!word.Contains(playerLetter))
@@ -487,7 +458,6 @@
                 return true;
 
             }
-
             static string AddLettertoGuessed(string word, char playerLetter, string wordToGuess)
             {
                 char[] wordToGuessCharArr = wordToGuess.ToCharArray();
@@ -500,7 +470,6 @@
                 }
                 return new String(wordToGuessCharArr);
             }
-
             static bool CheckIfPlayerWins(string wordToGuess, char Underscore)
             {
                 if (wordToGuess.Contains(Underscore))
@@ -509,7 +478,6 @@
                 }
                 return true;
             }
-
             static bool CheckIfPlayerLooses(int inccorectGuessCount)
             {
                 const int MaxAllowedIncorrectCharecters = 6;
@@ -519,31 +487,23 @@
                 }
                 return false;
             }
-
             static void DrawDeathAnimation(string[] deathAnimation)
             {
                 for (int i = 0; i < deathAnimation.Length; i++)
                 {
                     Console.WriteLine(deathAnimation[i]);
-
                     Thread.Sleep(100);
-
                     Console.SetCursorPosition(0, 0);
-
                 }
             }
-
-
             static string GetRandomWord(string[] words)
             {
                 Random var = new Random();
-
                 string word = words[var.Next(words.Length)];
-
                 return word.ToLower();
 
             }
-             void DrawCurrentGameState(bool inputIsInvalid, int incAnswer, string wordToGuess, List<char> usedLetters)
+            void DrawCurrentGameState(bool inputIsInvalid, int incAnswer, string wordToGuess, List<char> usedLetters)
             {
 
                 Console.Clear();
@@ -557,32 +517,19 @@
 
                 }
                 Console.Write("Your symbol: ");
-
             }
-
-
-
-
-
-
             while (true)
             {
                 string[] words = ReadWordsFromFile();
                 Console.CursorVisible = false;
                 string word = GetRandomWord(words);
                 char Underscore = char.Parse("_");
-
                 string wordToGuess = new(Underscore, word.Length);
                 int inccorectGuessCount = 0;
                 List<char> playerUsedLetters = new List<char>();
-
-
                 DrawCurrentGameState(false, inccorectGuessCount, wordToGuess, playerUsedLetters);
-                
-
                 playGame(word, wordToGuess, inccorectGuessCount, playerUsedLetters);
                 Console.WriteLine("If you want to play again, press [Enter]. Else, type 'quit':");
-
                 string continuee = Console.ReadLine();
                 if (continuee == "quit")
                 {
@@ -592,48 +539,6 @@
                 }
                 Console.Clear();
             }
-
-
         }
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }
-
-
-
-
-
-
-
-
-        
-
-
-
-    
