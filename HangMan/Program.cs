@@ -434,7 +434,6 @@
                         Console.WriteLine(LoseText);
                         Console.WriteLine($"The word you guessed is [{word}]");
                         break;
-
                     }
 
                 }
