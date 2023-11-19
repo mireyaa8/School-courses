@@ -379,8 +379,7 @@
     @" __/══════╩═══"
 
             };
-
-
+      
             static string[] ReadWordsFromFile()
             {
                 string currentDictenary = Directory.GetCurrentDirectory();
