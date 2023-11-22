@@ -20,15 +20,7 @@ namespace ChangeList
         static void ChangeList(List<int> list) 
         { 
             string line = Console.ReadLine();
-            while(true)
-            {
-                if (line == "end")
-                {
-                    break;
-                }
-
-
-            }
+            
             
            
         }
