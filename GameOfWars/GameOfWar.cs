@@ -15,9 +15,9 @@ namespace GameOfWars
             Console.WriteLine(
 @"
 ================================================================================
-||                      Welcome to the Game of War!						      ||
-|| 									                                          ||
-|| HOW TO PLAY: 							                                  ||
+||                      Welcome to the Game of                                ||
+|| 			                                                      ||                                          
+|| HOW TO PLAY: 						              ||
 || + Each of the two players are dealt one half of a shuffled deck of cards.  ||
 || + Each turn, each player draws one card from their deck.                   ||
 || + The player that drew the card with higher value gets both cards.         ||
@@ -33,7 +33,8 @@ namespace GameOfWars
 || + Press [Enter] to draw a new card until we have a winner.                 ||
 ||                                                                            ||
 ||                              Have fun!                                     ||
-================================================================================");
+================================================================================"
+);
 
             List<Cards> deck = GenerateDeck();
             ShuffleDeck(deck);
