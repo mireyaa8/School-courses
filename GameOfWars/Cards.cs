@@ -21,7 +21,7 @@ namespace GameOfWars
 
             }
             
-            return $"{Face}{suit}";
+            return $"{face}{suit}";
 
 
 
