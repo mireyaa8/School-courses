@@ -20,8 +20,7 @@ namespace Task1
             Stack<int> stack = new Stack<int>(command1);
             
 
-            
-            for (int j = 0; j < command[1]; j++)
+             for (int j = 0; j < command[1]; j++)
             {
                 
                 stack.Pop();
