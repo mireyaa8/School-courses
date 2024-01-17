@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roadSafetyExam", "roadSafetyExam.csproj", "{627427B5-6191-43F2-859C-8F84656FB7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{627427B5-6191-43F2-859C-8F84656FB7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627427B5-6191-43F2-859C-8F84656FB7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627427B5-6191-43F2-859C-8F84656FB7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627427B5-6191-43F2-859C-8F84656FB7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {175124AE-B142-470A-AAC0-2BA9F92C3F58}
+	EndGlobalSection
+EndGlobal
