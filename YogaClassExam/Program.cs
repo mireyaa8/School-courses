@@ -10,7 +10,13 @@
                 .ToArray();
 
             int countPeople = int.Parse(Console.ReadLine());
-            double needSum = (prices[0] + (prices[1])*2 + (prices[2])*20/100.0)*countPeople ;
+            int matsD = (int)Math.Ceiling(countPeople * 1.2);
+            int ballD = countPeople - (countPeople / 5);
+            int blocksD = countPeople * 2;
+
+
+            double needSum = ((ballD * prices[0]) + (prices[1] * blocksD) + (prices[2] * matsD) * countPeople);
+            
             
             Console.WriteLine($"{needSum:F2}$ needed for equipment.");
 

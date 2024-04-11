@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functionalProgramming", "functionalProgramming.csproj", "{6B371119-7054-44D1-9B65-AA501D2DFE49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortEvenNumbers", "..\SortEvenNumbers\SortEvenNumbers.csproj", "{2DC32A26-7C8F-4233-90B4-C280AB05210B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B371119-7054-44D1-9B65-AA501D2DFE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B371119-7054-44D1-9B65-AA501D2DFE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B371119-7054-44D1-9B65-AA501D2DFE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B371119-7054-44D1-9B65-AA501D2DFE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC32A26-7C8F-4233-90B4-C280AB05210B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC32A26-7C8F-4233-90B4-C280AB05210B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC32A26-7C8F-4233-90B4-C280AB05210B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC32A26-7C8F-4233-90B4-C280AB05210B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89E79A62-BAF1-41E0-8C3E-83CDC4863607}
+	EndGlobalSection
+EndGlobal
