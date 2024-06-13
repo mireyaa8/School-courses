@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "countEvenAndOdd", "countEvenAndOdd\countEvenAndOdd.csproj", "{A833B3C2-5D19-4816-8BA2-FED650C8D247}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A833B3C2-5D19-4816-8BA2-FED650C8D247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A833B3C2-5D19-4816-8BA2-FED650C8D247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A833B3C2-5D19-4816-8BA2-FED650C8D247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A833B3C2-5D19-4816-8BA2-FED650C8D247}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5E7AC07-1B0C-4635-8037-2BAA91B821AA}
+	EndGlobalSection
+EndGlobal
